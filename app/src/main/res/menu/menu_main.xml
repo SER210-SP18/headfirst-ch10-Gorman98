@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ser210.quinnipiac.edu.bitsandpizzas2.MainActivity">
+
+    <item
+        android:id="@+id/action_create_order"
+        android:icon="@drawable/ic_action_new_event"
+        android:orderInCategory="1"
+        android:title="@string/action_create_order"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="2"
+        android:title="@string/action_share"
+        app:actionProviderClass="android.widget.ShareActionProvider"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>
